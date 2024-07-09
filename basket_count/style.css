@@ -1,0 +1,19 @@
+section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.right-arrow{
+    rotate: 180deg;
+}
+button{
+    width: 10%;
+    aspect-ratio: 1;
+    border: none;
+    box-shadow: 1px 1px 2px gray;
+
+    i{
+        font-size: 3rem;
+    }
+}
